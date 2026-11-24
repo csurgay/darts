@@ -1,0 +1,4 @@
+api/config.php
+*.sqlite
+node_modules/
+tests/out/

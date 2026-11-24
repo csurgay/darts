@@ -1,0 +1,5 @@
+# A konfiguráció és a séma ne legyen letölthető
+<FilesMatch "^(config\.php|config\.sample\.php|schema\.sql|.*\.sqlite)$">
+  Require all denied
+</FilesMatch>
+Options -Indexes
